@@ -1,22 +1,34 @@
-# 🛍️ Customer Segmentation using K-Means Clustering
+# 🧠 Customer Segmentation using K-Means Clustering
 
-This project uses K-Means to segment customers based on annual income and spending score, helping businesses understand customer behavior.
+This project uses K-Means Clustering to segment mall customers based on their annual income and spending score.
 
-## 🔍 Features
-- Elbow Method to find the optimal number of clusters
-- Visualizes customer segments
-- Uses Mall Customers dataset
+## 📁 Dataset
+- Source: [Kaggle Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+- File: `Mall_Customers.csv`
 
-## 💻 Tools Used
+## 📊 Features
+- CustomerID
+- Gender
+- Age
+- Annual Income (k$)
+- Spending Score (1-100)
+
+## 🧠 Algorithm Used
+- K-Means Clustering
+- Elbow Method (to find optimal number of clusters)
+
+## 📈 Output
+- Visualized customer segments using scatter plots
+- Inferred customer behavior patterns
+
+## 🛠 Tools Used
 - Python
-- Pandas, Scikit-learn
-- Matplotlib, Seaborn
+- Jupyter Notebook
+- Pandas, Matplotlib, Seaborn, Scikit-learn
 
-## 📊 Output
-![Clusters](screenshots/clusters.png)
+## 📦 Requirements
 
-## 🚀 How to Run
+Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
-python main.py
